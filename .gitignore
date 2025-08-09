@@ -1,0 +1,74 @@
+# === Java / Backend ===
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+*.launch
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# === JavaScript / Frontend ===
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Vite / Parcel / Webpack cache
+.vite/
+.parcel-cache/
+.cache/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+coverage/
+
+# === Common ===
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
